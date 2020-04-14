@@ -165,7 +165,7 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 ### Authors
 
-* **[Shivam Shivanshu]()** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **[Shivam Shivanshu](https://github.com/shivamshivanshu)** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors]() who participated in this project.
 
@@ -175,6 +175,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ### Acknowledgments
 
-* Hat tip to anyone whose code was used
 * Inspiration
 * etc
