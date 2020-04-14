@@ -1,2 +1,3 @@
 # Electronic_Club-IITK
-E-Club files
+E-Club files and projects
+
