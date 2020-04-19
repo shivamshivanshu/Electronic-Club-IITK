@@ -21,7 +21,7 @@ Before installing Raspbian on your Raspberry Pi,few prerequisite are as follow:
 
 2. A micro SD card of 8 GB or more and a Card Reader
 
-3. USB keyboard and mouse
+3. USB keyboard and mouse(optional)
 
 4. A working computer
 
@@ -169,11 +169,12 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 See also the list of [contributors]() who participated in this project.
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ### Acknowledgments
 
-* Inspiration
-* etc
+### Motivation
+
+* Raspberry Pi has a limitless scope with the projects and stuff you can do with it, ranging from Robotics to Ethical Hacking. The purpose of this article is to get you started with Raspberry Pi so that you can explore this wonderful little tool under guidance of Electronic club.
+
+* Happy Learning 
+
