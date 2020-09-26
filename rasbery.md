@@ -4,7 +4,7 @@ The objective of this page is to help readers getting started with Raspberry Pi 
 
 ## Introduction
 
-Raspberry Pi is series of low cost single borad computers which comes with built in features such as Wifi and Bluetooth and some USB and HDMI ports. We can connect a display, usb keyboard and mouse.
+Raspberry Pi is series of low-cost single borad computers which comes with built-in features such as WiFi and Bluetooth and some USB and HDMI ports. We can connect a display, usb keyboard and mouse.
 
 These mini computers are very flexible in the areas where these can be used such as embedded system, weather reports and small security system.
 
@@ -26,7 +26,7 @@ The Subsections are as follows:
 
 ## Prerequisites
 
-Before installing Raspbian on your Raspberry Pi,few prerequisite are as follow:
+Before installing Raspbian on your Raspberry Pi,few prerequisite are as follows:
 
 1. A functional Raspberry Pi
 
@@ -51,16 +51,16 @@ A step by step procedure of process which tell you how get started with Raspberr
 
 1. Head over to this **[Link](https://www.raspberrypi.org/downloads/noobs/ "NOOBS Download Page")** to download the **Full Version** of Raspbian OS (This should be around 2.4 GB).
 
-2. Download the ZIP file by clicking on **Download ZIP** to start the downlaod
+2. Download the ZIP file by clicking on **Download ZIP** to start the download
 
-**NOTE** : The Torrent Link is significantly faster than the direct download option. You might try that option.
+**NOTE** : The Torrent Link is much faster than the direct download option. You might try that option.
 
 #### Downloading the **Raspberry Pi Imager**
 
 1.  Head over to this **[Link](https://www.raspberrypi.org/downloads/ "Raspberry Pi Imager")** to download the `Raspberry Pi Imager` as per your current available system.
 
     - Windows
-    - macOS
+    - MacOS
     - Ubuntu
 
 2.  Install the Imager to your system.
@@ -69,9 +69,9 @@ A step by step procedure of process which tell you how get started with Raspberr
 
 #### Writing the Disk Image to SD Card
 
-1. Insert SD card into your computer via a Card Rwader.
+1. Insert SD card into your computer via a Card Reader.
 
-2. Open `Raspberry Pi Imager` and select the SD card with `CHOOSE SD CARD` option. Select the SD card form the menu appered.
+2. Open `Raspberry Pi Imager` and select the SD card with `CHOOSE SD CARD` option. Select the SD card from the menu appeared.
 
 3. Goto `CHOOSE OS` option. Select `Use Custom` option. A dialog box will appear. Navigate to the **zip** file of NOOBS which was downloaded.
 
@@ -83,7 +83,7 @@ A step by step procedure of process which tell you how get started with Raspberr
 
 1. Attach the SD memory card to the USB slot of your Pi. Connect the Pi to the laptop using the Ethernet cable(**RJ45 STRAIGHT**) .
 
-2. Follow these steps on your Laptop/PC beforing powering ON your Pi (**IMPORTANT**)
+2. Follow these steps on your Laptop/PC before powering ON your Pi (**IMPORTANT**)
 
 ```
 OPEN CONTROL PANEL> NETWORK AND SHARING
@@ -94,11 +94,11 @@ CLICK TO ENABLE INTERNET CONNECTION SHARING (IMPORTANT).
 CLICK OK.
 ```
 
-3. Inser power adaptor and Ethenet cable to Raspberry Pi and Laptop. Power on the device. A **Unidentified Network** will appear as **Local Area Connection** .
+3. Insert power adaptor and Ethernet cable to Raspberry Pi and Laptop. Power on the device. A **Unidentified Network** will appear as **Local Area Connection** .
 
 4. Connect the keyboard, mouse, and HDMI display if you want. Remember that the external screen only needed to run the Pi for the first time.
 
-5. Click on it and select **Properties** and double click on **Internet Protocol Version 4**. Note the IP Address shown. The IP settings in general are as follows
+5. Click on it and select **Properties** and double-click on **Internet Protocol Version 4**. Note the IP Address shown. The IP settings in general are as follows
 
 ```
 IP Address  : 192.168.43.1 (for wlan or WiFi)
@@ -124,7 +124,7 @@ Note down all the details.
 echo>K:\ssh
 ```
 
-8. Insert SD card back to Pi decvice and plug back the Raspberry Pi to computer.
+8. Insert SD card back to Pi device and plug back the Raspberry Pi to computer.
 
 ### Connecting SSH and VNC
 
@@ -135,7 +135,7 @@ echo>K:\ssh
 2. Open PuTTy and follow the steps below
 
 ```
-SELECT THE SSH OPTION FROM OPTIONSAND SET PORT TO 22
+SELECT THE SSH OPTION FROM OPTIONS AND SET PORT TO 22
 WRITE THE IP OF YOUR RASPBERRY PI WHICH WAS SEARCHED BY ADVANCE IP SCANNER.
 ```
 
@@ -164,14 +164,14 @@ Password : raspberry
 
 ### GPIO Programming
 
-GPIO, or General-Purpose Input/Output, is a feature of most modern embedded computer hardware and a key component of many embedded systems.
+GPIO, or General-Purpose Input/Output, is a feature of most modern embedded computer hardware and a key part of many embedded systems.
 
 ![GPIO](gpio.jpg)
 
 Please refer to [This](https://www.ics.com/blog/introduction-gpio-programming) article for more info about the basics of GPIO Pins.
 
 GPIO programming is usually done with **Python** using RPi.GPIO
-which can be installed via teminal
+which can be installed via terminal
 
 ![GPIO 2](gpio2.jpg)
 
@@ -184,24 +184,12 @@ The best way to learn Raspberry Pi and IoT is via small projects and by having f
 
 ### Foot Notes
 
-For Linux and macOS, connecting is even more easy.
+For Linux and MacOS, connecting is even more easy.
 Just use **Advanced IP Scanner/Nmap** or any tool you wish to scan for **Raspberry Pi** and use following commands.
 
-We also recommend you to check out [This](https://elec-club-iitb.github.io/tutorials/r_pi/) article from Electronics Club IITB for some extra insights.
+We also recommend you to check out [This](https://elec-club-iitb.github.io/tutorials/r_pi/) article from Electronics Club IIT-B for some extra insights.
 
 > ssh pi@\<IP>
-
-### Built With
-
-- [VScode](https://code.visualstudio.com/) - IDE
-
-### Authors
-
-- **[Shivam Shivanshu](https://github.com/shivamshivanshu)** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### Acknowledgments
-
-### Motivation
 
 - Raspberry Pi has a limitless scope with the projects and stuff you can do with it, ranging from Robotics to Ethical Hacking. The purpose of this article is to get you started with Raspberry Pi so that you can explore this wonderful little tool under guidance of Electronic club.
 
